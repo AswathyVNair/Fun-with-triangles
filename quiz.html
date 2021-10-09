@@ -5,21 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href = "quiz.css"rel ='stylesheet'/>
   </head>
   <body>
 
     <nav>
+      <div class="nav-heading">Fun With Triangles</div>
       <a href="index.html">Is Triangle?</a>
       <a href="quiz.html">Triangle Quiz</a>
       <a href="hypotenuse.html">Calculate hypotenuse</a>
       <a href="area.html">Area</a>
     </nav>
 
+    <div class="heading-and-description">
     <h1>Triangle Quiz</h1>
+    <div class="description">For each coreect answer you will get 1 point</div>
+  </div>
     <form class="quiz-form">
       <div class="question-container">
         <p>
-          What is the third angle for the triangle where angle1 = 45° and angle2
+          1. What is the third angle for the triangle where angle1 = 45° and angle2
           = 45°?
         </p>
         <label><input type="radio" name="question1" value="45°" />45°</label>
@@ -29,12 +34,82 @@
 
       <div class="question-container">
         <p>
-        If a triangle has an angle of 90 degrees,what is it called?
+        2. If a triangle has an angle of 90 degrees,what is it called?
         </p>
         <label><input type="radio" name="question2" value="acute" />acute</label>
         <label><input type="radio" name="question2" value="obtuse" />obtuse</label>
         <labe><input type="radio" name="question2" value="right angled" />right angled</label>
       </div>
+
+      <div class="question-container">
+        <p>
+          3. A triangle can have
+        </p>
+        <label><input type="radio" name="question3" value="one right angle"/>one right angle</label>
+        <label><input type="radio" name="question3" value="two right angle" />two right angle</label>
+      </div>
+
+      <div class="question-container">
+        <p>
+          4. Which of the following can form a right angled triangle?
+        </p>
+        <label><input type="radio" name="question4" value="14, 15, 26" />14, 15, 26</label>
+        <label><input type="radio" name="question4" value="12, 16, 20" />12, 16, 20</label>
+        
+      </div>
+
+      <div class="question-container">
+        <p>
+          5. Which of the following triangles are always similar?
+        </p>
+        <label><input type="radio" name="question5" value="Equilateral triangle" />Equilateral triangle</label>
+        <label><input type="radio" name="question5" value="Isosceles triangle" />Isosceles triangle</label>
+      </div>
+
+      <div class="question-container">
+        <p>
+          6. If one angle of a triangle is obtuse, then which one of the following is the possible measure of remaining angles?
+        </p>
+        <label><input type="radio" name="question6" value ="100°" />100°</label>
+        <label><input type="radio" name="question6" value=" 85°" /> 85°</label>
+      </div>
+
+      <div class="question-container">
+        <p>
+          7. If the largest angle in a triangle is 70°, what is the least possible value of the smallest angle of the triangle?
+        </p>
+        <label><input type="radio" name="question7" value="30°" />30°</label>
+        <label><input type="radio" name="question7" value="10°" />10°</label>
+      </div>
+
+
+      <div class="question-container">
+        <p>
+          8. The perimeter of scalene triangle with sides a, b, c is
+        </p>
+        <label><input type="radio" name="question8" value="a + b + c" /> a + b + c</label>
+        <label><input type="radio" name="question8" value="2a" />2a</label>
+        <label><input type="radio" name="question8" value="None of these" />None of these</label>
+      </div>
+
+      <div class="question-container">
+        <p>
+          9. A scalene triangle has ___ lines of symmetry
+        </p>
+        <label><input type="radio" name="question9" value="two" />two</label>
+        <label><input type="radio" name="question9" value="no" />no</label>
+        <label><input type="radio" name="question9" value="15" />15</label>
+      </div>
+
+      <div class="question-container">
+        <p>
+         10.  There is a right triangle PQR where: angle Q = 90°; angle P = angle R. What is the measure of angles P and R?
+        </p>
+        <label><input type="radio" name="question10" value="85°" />85°</label>
+        <label><input type="radio" name="question10" value="65°" />65°</label>
+        <label><input type="radio" name="question10" value="45°"/>45°</label>
+      </div>
+
     </form>
 
     <button id = "submit-answer-btn">Submit Answers</button>
