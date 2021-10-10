@@ -56,3 +56,33 @@ button {
   font-weight: 900;
   font-size: x-large;
 }
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 2rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+  font-size: larger;
+}
+.footer .link {
+  color: white;
+}
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+.footer ul {
+  padding-inline-start: 0px;
+}
+.list-non-bullet {
+  list-style: none;
+}
+.list-item-inline {
+  display: inline;
+  padding: 0rem 1rem;
+}
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
