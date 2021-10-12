@@ -46,6 +46,8 @@ button {
   font-weight: 600;
   font-size: larger;
   border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
 }
 
 .content {
